@@ -1,0 +1,42 @@
+*{
+    margin:  0%;
+    padding: 0%;
+}
+
+header{
+    font-size: 50px;
+    width: 100%;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+}
+img{
+    margin: 10px 40%;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    box-shadow: -2px 5px 8px rgba(0, 0, 0, .3);
+    border-radius: 80%;
+    object-fit: cover;
+}
+p{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 35%;
+    width: 600px;
+    height: 200px;
+}
+button{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 35%;
+    width: 600px;
+    height: 50px;
+    background-color: black;
+}
