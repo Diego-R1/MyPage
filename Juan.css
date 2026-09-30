@@ -1,0 +1,43 @@
+*{
+    margin:  0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px 10px;
+}
+.perfil{
+    background: rgba(255, 240, 240, 1);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+    text-align: center;
+    width: 250px;
+    padding: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.perfil:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 15px rgba(0, 0, 0, .4);
+}
+.perfil img{
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    box-shadow: -2px 5px 8px rgba(0, 0, 0, .3);
+    border-radius: 100%;
+    object-fit: cover;
+}
